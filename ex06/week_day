@@ -1,0 +1,30 @@
+#!/bin/bash
+
+read "Say number from 0 to 6. 0/1/2/3/4/5/6: " ANSWER
+case "$ANSWER" in
+     [0]
+     echo "It is Sunday"
+     ;;
+     [1]
+     echo "It is Monday"
+     ;;
+     [2]
+     echo "It is Thursday"
+     ;;
+     [3]
+     echo "It is Wednesday"
+     ;;
+     [4]
+     echo "It is Tuesday"
+     ;;
+     [5]
+     echo "It is Friday"
+     ;;
+     [6]
+     echo "It is Saturday"
+     ;;
+     *)
+	echo "Please enter number from 0 to 6"
+esac	
+
+    

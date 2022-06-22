@@ -1,0 +1,9 @@
+#!/bin/bash
+
+touch .numbers
+echo "+1 832-938-7888 Cell Number,from Huston,TX(state),USA
++44 330-866-1216 Landline,from London,UK
++49 715-901-9812 Landline,from Berlin,Germany
++1 650-565-3777 Landline,from Palo Alto,CA(state),USA
++1 918-830-2473 Cell Number,from Tulsa,OK(state),USA" >> .numbers
+cat .numbers|  grep 'USA'

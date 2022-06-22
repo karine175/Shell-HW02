@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Enter name of file "
+read test1
+FILE=test1
+if test -f "$FILE"; 
+then
+	echo "$FILE is a regular file"
+else  
+	echo "$FILE is another type of file"   
+fi
+ls -l test1

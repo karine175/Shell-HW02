@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd ../ex01/
+cp .qoute /home/karine/Homework02/ex02
+cd ../ex02/
+cat .qoute
+cd ../ex01/
+rmdir -p hello/world
+
