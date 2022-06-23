@@ -1,0 +1,14 @@
+#!/bin/bash
+
+mkdir safe_rm_recycle
+read -p "Enter the file name to make a copy" ANSWER
+case "$ANSWER" in
+      "test1")
+      cp test1 /home/karine/Homework02/ex05/safe_rm_recycle
+      ;;
+      *)
+      echo "Please enter the file name"
+      ;;
+esac
+rm test1
+    
