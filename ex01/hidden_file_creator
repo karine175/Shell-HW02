@@ -1,5 +1,5 @@
 #!/bin/bash
 
 mkdir -p hello/world
-echo "Make each day your masterpiece" >> .qoute
+echo "Make each day your masterpiece" > .qoute
 echo "Creation was successful"
