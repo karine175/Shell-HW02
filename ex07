@@ -1,0 +1,9 @@
+#!/bin/bash
+
+NAME1="Thor"
+NAME2="Odin"
+NAME3="AnotherUser"
+echo "$0 Thor Odin AnotherUser"
+echo "Username - 1: ${NAME1}"
+echo "Username - 2: ${NAME2}"
+echo "Username - 3: ${NAME3}"
